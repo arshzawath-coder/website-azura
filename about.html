@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZURA - About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom styles to ensure the layout remains fluid and uses Inter font */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfcfc;
+        }
+        /* Style for the fixed header container */
+        .header-top {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e5e7eb;
+            z-index: 50;
+        }
+        /* New Hero style for the title page */
+        .page-title-hero {
+            min-height: 15vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* General content image styling */
+        .content-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            background-color: #f3f4f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9ca3af;
+            font-size: 1rem;
+            border-radius: 0.5rem; /* Rounded corners for consistency */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="header-top py-2 bg-black text-white text-xs text-center tracking-wider">
+        FREE SHIPPING ON ALL ORDERS OVER $150
+    </div>
+
+    <header class="sticky top-0 bg-white border-b border-gray-100 shadow-sm z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                
+                <div class="flex-shrink-0">
+                    <a href="Index.html" class="text-2xl font-extrabold tracking-widest text-black hover:text-gray-700 transition duration-150">AZURA</a>
+                </div>
+
+                <nav class="hidden md:flex space-x-8">
+                    <a href="New Drop.html" class="text-sm font-medium text-gray-700 hover:text-black tracking-wider transition duration-150">NEW DROP</a>
+                    <a href="acessories.html" class="text-sm font-medium text-gray-700 hover:text-black tracking-wider transition duration-150">ACCESSORIES</a>
+                    <a href="About.html" class="text-sm font-bold text-black tracking-wider transition duration-150">ABOUT US</a>
+                    <a href="contact.html" class="text-sm font-medium text-gray-700 hover:text-black tracking-wider transition duration-150">CONTACT</a>
+                </nav>
+
+                <div class="flex items-center space-x-4">
+                    <button aria-label="Search" class="p-2 rounded-full hover:bg-gray-100 transition"><i data-lucide="search" class="w-5 h-5"></i></button>
+                    <button aria-label="User Account" class="p-2 rounded-full hover:bg-gray-100 transition"><i data-lucide="user" class="w-5 h-5"></i></button>
+                    <button aria-label="Shopping Cart" class="p-2 rounded-full hover:bg-gray-100 transition"><i data-lucide="shopping-bag" class="w-5 h-5"></i></button>
+
+                    <button id="mobile-menu-button" class="md:hidden p-2 rounded-full hover:bg-gray-100 transition" aria-label="Open menu">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden absolute w-full bg-white border-b border-gray-100 shadow-lg pb-4">
+            <div class="px-2 pt-2 pb-3 space-y-2">
+                <a href="Index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-black">HOME</a>
+                <a href="New Drop.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-black">NEW DROP</a>
+                <a href="acessories.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-black">ACCESSORIES</a>
+                <a href="About.html" class="block px-3 py-2 rounded-md text-base font-bold text-black hover:bg-gray-50">ABOUT US</a>
+                <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-black">CONTACT</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title-hero pt-8 pb-12 md:pt-16 md:pb-20">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-center uppercase">OUR STORY</h1>
+        </section>
+
+        <section class="py-12 md:py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="mb-8 text-sm text-gray-600">
+                    <a href="Index.html" class="hover:text-black">HOME</a> <span class="text-gray-400">/</span> <span class="font-semibold text-black uppercase">ABOUT US</span>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 lg:order-1">
+                        <h2 class="text-3xl md:text-4xl font-extrabold mb-6">MODESTY & MODERNITY</h2>
+                        <p class="text-lg text-gray-600 mb-6">
+                            AZURA was born from a simple yet profound realization: that modesty and modern style are not mutually exclusive. We believe that true elegance lies in confidence, comfort, and self-expression, regardless of coverage. Our mission is to bridge the gap between contemporary fashion trends and the need for thoughtful, high-quality modest wear.
+                        </p>
+                        <p class="text-lg text-gray-600 mb-6">
+                            Every garment we create is a testament to our commitment to craftsmanship and conscious design. We source the finest, most breathable fabrics to ensure our pieces feel as good as they look. From our flowing dresses to our essential separates, each item is designed to be a versatile foundation for your wardrobe.
+                        </p>
+                        <p class="text-lg font-semibold text-gray-700">
+                            Join us in celebrating a wardrobe where you never have to choose between your values and your style.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4 order-1 lg:order-2">
+                        <div class="content-image h-64 bg-gray-200" style="background-image: url('download__15_-removebg-preview 1.png');"></div>
+                        <div class="content-image h-64 bg-gray-300" style="background-image: url('download__16_-removebg-preview 1.png');"></div>
+                        <div class="content-image h-64 bg-gray-300" style="background-image: url('download__17_-removebg-preview 1.png');"></div>
+                        <div class="content-image h-64 bg-gray-200" style="background-image: url('download__18_-removebg-preview 1.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-24 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-lg tracking-widest font-medium uppercase text-center mb-12">OUR CORE VALUES</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+                    <div class="p-6 bg-white rounded-lg shadow-md">
+                        <i data-lucide="gem" class="w-8 h-8 mx-auto mb-4 text-black"></i>
+                        <h3 class="text-xl font-bold mb-3">Uncompromising Quality</h3>
+                        <p class="text-gray-600">We meticulously select premium, sustainable fabrics that ensure durability, comfort, and a flawless drape.</p>
+                    </div>
+
+                    <div class="p-6 bg-white rounded-lg shadow-md">
+                        <i data-lucide="ruler" class="w-8 h-8 mx-auto mb-4 text-black"></i>
+                        <h3 class="text-xl font-bold mb-3">Innovative Design</h3>
+                        <p class="text-gray-600">Our designs are created to be both contemporary and modest, offering modern silhouettes with full coverage.</p>
+                    </div>
+
+                    <div class="p-6 bg-white rounded-lg shadow-md">
+                        <i data-lucide="heart" class="w-8 h-8 mx-auto mb-4 text-black"></i>
+                        <h3 class="text-xl font-bold mb-3">Empowering Community</h3>
+                        <p class="text-gray-600">AZURA supports and connects a diverse community of women who value faith, style, and self-confidence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+                
+                <div class="col-span-2 md:col-span-1">
+                    <a href="Index.html" class="text-2xl font-extrabold tracking-widest text-white hover:text-gray-300 transition duration-150">AZURA</a>
+                    <p class="text-sm text-gray-400 mt-4">Modesty Meets Modernity.</p>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold uppercase mb-4">SHOP</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="New Drop.html" class="hover:text-white transition duration-150">New Drop</a></li>
+                        <li><a href="acessories.html" class="hover:text-white transition duration-150">Accessories</a></li>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold uppercase mb-4">COMPANY</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="About.html" class="hover:text-white transition duration-150">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition duration-150">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Wholesale</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold uppercase mb-4">HELP</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-span-2 md:col-span-1">
+                    <h4 class="text-sm font-bold uppercase mb-4">FOLLOW US</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Instagram" class="hover:text-gray-300 transition duration-150"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                        <a href="#" aria-label="Facebook" class="hover:text-gray-300 transition duration-150"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                        <a href="#" aria-label="Pinterest" class="hover:text-gray-300 transition duration-150"><i data-lucide="pinterest" class="w-5 h-5"></i></a>
+                        <a href="#" aria-label="TikTok" class="hover:text-gray-300 transition duration-150"><i data-lucide="tiktok" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
+                    <p>&copy; 2024 AZURA. All Rights Reserved.</p>
+                    <div class="mt-4 md:mt-0 space-x-4">
+                        <a href="#" class="hover:text-white transition duration-150">Terms of Service</a>
+                        <a href="#" class="hover:text-white transition duration-150">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize Lucide Icons
+            if (typeof lucide !== 'undefined' && lucide.createIcons) {
+                lucide.createIcons();
+            }
+
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            // Toggle function for the mobile navigation menu (Responsive Element 2)
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    
+                    // Optional: Change icon from 'menu' to 'x' when open
+                    const icon = mobileMenuButton.querySelector('svg');
+                    if (icon) {
+                        if (mobileMenu.classList.contains('hidden')) {
+                            // Close: Show menu icon
+                            icon.outerHTML = lucide.icons.menu.toSvg({ class: 'w-6 h-6' });
+                        } else {
+                            // Open: Show x icon
+                            icon.outerHTML = lucide.icons.x.toSvg({ class: 'w-6 h-6' });
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
